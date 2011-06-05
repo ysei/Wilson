@@ -1,0 +1,30 @@
+Entwicklungsdokumente für Wilson
+
+Next Steps:
+- Versionskontrolle aufbauen, ganz wichtig!!! Perforce oder SVN oder SourceForge etc. egal, Hauptsache
+  eine fähige Versionskontrolle ist vorhanden. -> GIT Dezentrale Versionskontrolle auf GitHub Als open Source projekt
+  https://github.com/plans
+- JUNIT Tests für das ganze MVC Konstrukt, um es quasi zu Testen
+	-> Normale Unit Tests für die einzelnen Komponenten Controller, View, Model, 
+		- dazu Stubs für View, Model und Controller erstellen	
+	-> Behaviourorientiert -> Stubs und Mocks
+- Überlegung ob Componenten der WorldView das Model einzeln Observen sollten.
+
+Next Features
+- Erstellen einer 2D-Map, in der sich auf Knopfdruck die Karte ändert per Zufall.
+-- Dabei ein besseres GUI-Layout programmieren. Entweder über GUI-Builder Tools oder von Hand.
+- Erstellen eines Spielerobjektes, dass sich "Bewegen lässt" per 
+		- Buttons, 
+		- Tastatur und
+		- Maus. 
+	- Zuerst TileBased
+	- Dann Pixelless
+- Collision mit den "Weltgrenzen"
+
+
+Archivierte ToDo's und Ideen, die aus bestimmten Gründen verschoben oder verworfen wurden. Der Grund
+ist in der Regel mit anzugeben:
+- Done Test Button für die WorldView, zum Auslösen von Veränderungen im Model durch den User
+
+	
+
